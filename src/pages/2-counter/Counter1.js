@@ -51,3 +51,15 @@ export default class Counter1 extends Component {
     );
   }
 }
+
+
+// stateless functional component
+// export default observer(function Counter1(){
+//   return (
+//     <View style={styles.container}>
+//       <Text style={styles.value}>{counter.get()}</Text>
+//       <Text style={styles.btn} onPress={inc}>+</Text>
+//       <Text style={styles.btn} onPress={dec}>-</Text>
+//     </View>
+//   );
+// })
